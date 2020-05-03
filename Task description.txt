@@ -1,0 +1,23 @@
+Background
+A typical time series dataset queried from the enterprise data historian has been provided. It consists of multiple water quality parameters (Columns A to J) that have been input by plant operators manually, as well as dose rates (DOSE) of chemicals that have been set to run a particular water treatment process for 10 different plants (PLANT P01 to P10) located along the same river.
+
+Task
+Your job as a data scientist is to create a regression model to predict the possible range of chemical dose rates that the operators should be operating within, as well as the most recommended dose rate.
+
+Deliverables
+1) Documentation (MS Powerpoint preferred) addressing the following:
+• Overview of modelling process
+• Exploratory analysis of data
+• Methods of outlier detection and other data cleaning steps
+• Model selection and validation process
+• Selection of accuracy metric(s) and prediction accuracy achieved
+• Explanation of variables that are most important to predicting dose rates
+• Description of how such a dosing model can be implemented, monitored and utilized
+• Proposal of any other methods that can be pursued
+2) Programming scripts:
+• Can be in any programming language of your choice
+• Can be in executable or notebook format where appropriate
+• Should be:
+i) Be as readable as possible (e.g. commented appropriately, using variable/object names that make sense)
+ii) Import all libraries/modules/toolboxes used
+iii) Include a final prediction file (predicting on the entire dataset) and save it as “assessment_result.csv”, with 3 additional columns: recommended dose (PRED) and possible range (PRED_HIGH & PRED_LOW) that it should be within.
